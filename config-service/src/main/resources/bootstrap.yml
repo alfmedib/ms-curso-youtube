@@ -1,11 +1,12 @@
 server:
-  port: 7071
+  port: 8081
 
 spring:
   cloud:
     config:
       server:
-        git: https://github.com/alfmedib/ms-curso-youtube.git
+        git:
+          uri: https://github.com/alfmedib/ms-curso-youtube.git
         searchPaths: config-data
         username: ${GIT_USER}
         password: ${GIT_PASSWORD}
