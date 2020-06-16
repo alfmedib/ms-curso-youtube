@@ -59,7 +59,7 @@ public class CustomerRest {
 
     // ******************** Buscar Cliente por id *******************************
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<Customer> getCustomer(@PathVariable("id") Long id){
 
         log.info("Buscar al ciente con id ", id);

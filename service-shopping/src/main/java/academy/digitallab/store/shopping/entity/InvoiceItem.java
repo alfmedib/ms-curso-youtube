@@ -3,6 +3,7 @@ package academy.digitallab.store.shopping.entity;/*
  * el 10/06/2020
  */
 
+import academy.digitallab.store.shopping.model.Product;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -23,6 +24,9 @@ public class InvoiceItem {
 
     @Column(name = "product_id")
     private Long productId;
+
+    @Transient
+    private Product product;
 
     @Transient
     private Double subTotal;
