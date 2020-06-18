@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/customers")
 public class CustomerRest {
 
     @Autowired
