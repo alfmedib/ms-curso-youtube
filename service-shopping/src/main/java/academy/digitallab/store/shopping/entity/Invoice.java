@@ -16,7 +16,7 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "tbl_invoices")
+@Table(name = "tlb_invoices")
 public class Invoice {
 
     @Id

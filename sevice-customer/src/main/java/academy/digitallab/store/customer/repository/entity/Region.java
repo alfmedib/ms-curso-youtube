@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 @Data
 @Entity
-@Table(name = "tbl_region")
+@Table(name = "tbl_regions")
 public class Region implements Serializable {
 
     @Id

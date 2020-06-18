@@ -11,7 +11,7 @@ import javax.validation.constraints.Positive;
 
 @Data
 @Entity
-@Table(name = "tbl_invoice_items")
+@Table(name = "tbl_invoce_items")
 public class InvoiceItem {
 
     @Id
